@@ -1,0 +1,13 @@
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+tspan {
+    font: 10px sans-serif;
+}
+
+g.leaf-node {
+    transition: 0.2s all;
+    cursor: pointer;
+}

@@ -1,4 +1,4 @@
-# Week 7
+# Week 7 - [Demo](https://atrg5430-spring-2021.github.io/Week-7/)
 
 ### Resources
 

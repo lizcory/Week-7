@@ -1,10 +1,11 @@
 .container {
     width: 800px;
     margin: auto;
+    font-family: sans-serif;
 }
 
-tspan {
-    font: 10px sans-serif;
+text, tspan {
+    font: 8px sans-serif;
 }
 
 g.leaf-node {

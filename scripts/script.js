@@ -25,10 +25,19 @@ d3.json('data/flare-2.json')
     drawTreemap(data);
 
     dispatch.on('updateData', function(name, currData) {
+        if(!name) {
+            drawTreemap(data);
+            return;
+        }
+        let filteredData = currData.children.filter(d => d.name === name);
+
+        drawTreemap(filteredData[0]);
     })
 });
 
 d3.select('button#reset')
     .on('click', () => {
+
+        dispatch.call('updateData', this);
         
     });
